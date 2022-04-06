@@ -1,0 +1,101 @@
+form {
+    text-align: center;
+    margin: 0 auto;
+}
+
+fieldset {
+    text-align: left;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+input[type=submit] {
+    background: #22A522;
+    color: white;
+    height: 35px;
+    width: 18em;
+    margin: 3% auto;
+    padding: 10px;
+    font-size: medium;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #22ce78;
+    color: #ffffff;
+    box-shadow: 0 10px 20px rgb(128, 161, 149);
+}
+
+input[type=submit]:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px #22A522;
+}
+
+textarea:required:invalid,
+input:required:invalid {
+    background-color: rgba(199, 244, 255, 0.329);
+}
+
+body {
+    font-family: 'Palatino Linotype', serif;
+    max-width: 650px;
+    padding: 0px 30px;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 0px;
+}
+
+legend {
+    padding: 0px 3px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+label {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 6px;
+}
+
+em {
+    font-weight: bold;
+    font-style: normal;
+    color: crimson;
+}
+
+input:focus {
+    background-color: #eaeaea81;
+}
+
+input,
+textarea {
+    width: 289px;
+}
+
+textarea {
+    height: 100px;
+}
+
+select {
+    width: 295px;
+}
+
+input[type=checkbox] {
+    width: 10px;
+    transform: scale(2.0);
+}
+
+input:disabled,
+select:disabled {
+    background-color: #ffffff;
+    opacity: 1;
+}
